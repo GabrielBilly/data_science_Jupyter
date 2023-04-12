@@ -4,11 +4,9 @@
 ## Aviso e Recomendados:
 	Utilizei o Google Colab para este projeto pois se trata de vários arquivos complexos e pesados,
 	Os Arquivos devem estar baixados em seu Drive, e estarão disponíveis aqui: https://drive.google.com/drive/folders/1yJDXnx8fIXgi6GZQLtZHkF6Cjozy56R9?usp=share_link
-	Aqui no GitHub deixei 2 arquivos, O ProjetoAirbnb.ipynb que é o código fonte com o treinamento dos modelos para previsão de preço,
-	e o DeployProjetoAirbnb.ipynb que é o Deploy do programa onde é feito a previsão de preço com os indicadores inseridos pelo usúario.
-	Devemos rodar primeiro o ProjetoAirbnb.ipynb para treinamento do modelo, após isso rodamos o DeployProjetoAirbnb.ipynb 
+	Aqui no GitHub deixei o arquivo ProjetoAirbnb.ipynb que é o código fonte com o treinamento dos modelos para previsão de preço,
 	
- 
+
 ### Objetivo do Projeto:
 	Ferramenta de Previsão de Preço de Imóvel para pessoas comuns,
 	Construir um modelo de previsão de preço que permita uma pessoa comum
