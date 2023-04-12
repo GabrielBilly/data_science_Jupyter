@@ -30,7 +30,9 @@
 
 
 ## Inspirações e Créditos:
-As bases de dados foram retiradas do site: [kaggle](https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro)
+	As bases de dados foram retiradas do site: [kaggle](https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro)
+	Curso PythonImpressionador - Professor Jõao Paulo Lira
+	https://www.hashtagtreinamentos.com/
 
 
 ## Requisitos:
