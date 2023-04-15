@@ -2,57 +2,51 @@
 
 
 ## Warning and Recommended:
-	Utilizei o Google Colab para este projeto pois se trata de vários arquivos complexos e pesados,
-	Os Arquivos devem estar baixados em seu Drive, e estarão disponíveis aqui: https://drive.google.com/drive/folders/1yJDXnx8fIXgi6GZQLtZHkF6Cjozy56R9?usp=share_link
-	Aqui no GitHub deixei o arquivo ProjetoAirbnb.ipynb que é o código fonte com o treinamento dos modelos para previsão de preço,
-	
-
-### Objetivo do Projeto:
-	Ferramenta de Previsão de Preço de Imóvel para pessoas comuns,
-	Construir um modelo de previsão de preço que permita uma pessoa comum
-	que possui um imóvel possa saber quanto deve cobrar pela diária do seu imóvel.
-	Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a saber se aquele imóvel está preço atrativo (abaixo da média para imóveis com as mesmas características) ou não.
-
-### Descrição:
-	No Airbnb, qualquer pessoa que tenha um imóvel de qualquer tipo (apartamento, casa, chalé, pousada, etc.)
-	pode ofertar o seu imóvel para ser alugado por diária.
-	Você cria seu perfil de host (pessoa que disponibiliza um imóvel para aluguel por diária) e cria o anúncio do seu imóvel.
-	Nesse anúncio, o host deve descrever as características do imóvel da forma mais completa possível,
-	de forma a ajudar os locadores/viajantes a escolherem o melhor imóvel para eles (e de forma a tornar o seu anúncio mais atrativo)
-	Existem dezenas de personalização possíveis no seu anúncio, desde quantidade mínima de diária, preço, quantidade de quartes, até regras de cancelamento, taxa extra para hóspedes extras,
-	exigência de verificação de identidade do locador, etc.
-
-	Para o modelo de previsão analisaremos os dados ("dataset" disponíveis no drive), e para a previsão usaremos o Modelo ExtraTrees,
-	Modelo com os melhores resultados de R² e RSME (R²: medida estatística que indica o quão bem um modelo de regressão linear se performa com os dados
-	RSME: é uma medida para avaliar a precisão de modelos de regressão)
+	I used Google Colab for this project because it is a lot of complex and heavy files, I ended up using it to do the Deploly too (app.py)
+	The files for carrying out this project must be downloaded and pushed to your Drive, and will be available in the "Folders and Files" block
+	Here on GitHub I left the ProjetoAirbnb.ipynb file, which is the source code with the data analysis/visualization and machine training,
+	app.py is the project deploy on streamlit(localhost)
 
 
-## Inspirações e Créditos:
-	As bases de dados foram retiradas do site: [kaggle](https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro)
-	Curso PythonImpressionador - Professor Jõao Paulo Lira
+### Project's goal:
+	Property Price Prediction Tool for common people,
+	Build a price prediction model that allows the average person to
+	who own a property can find out how much they should charge for the daily rate of their property.
+	Or even, for the common landlord, given the property he is looking for, help to know if that property is at an attractive price (below the average for properties with the same characteristics) or not.
+
+### Description:
+	On Airbnb, anyone who owns real estate of any kind
+	You can offer your property to be rented per day.
+	Just create your host profile (person who makes a property available per day) and create your property ad.
+	In this advertisement, the host must describe the characteristics of the property as completely as possible,
+	in order to help landlords choose the best property for them (and in order to make your advertisement more attractive)
+	There are dozens of possible customizations in your ad, from the minimum number of nights, price, number of rooms, extra fee for extra guests, requirement to verify the identity of the landlord...
+	For the forecasting model we will analyze the data ("dataset" available in the drive), and for the forecasting we will use the ExtraTrees Model,
+	Model with the best R² and RSME results (R²: statistical measure that indicates how well a linear regression model performs with the data
+	RSME: is a measure to assess the accuracy of regression models)
+
+
+## Inspirations and Credits:
+	The databases were removed from the site: [kaggle](https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro)
+	Curso Python Impressionador - Prof Jõao Paulo Lira
 	https://www.hashtagtreinamentos.com/
 
 
-## Requisitos:
-### Bibliotecas Utilizadas:
-	import pandas as pd
-	import pathlib
+## Requirements:
+### Libraries Used:
 	from google.colab import drive
-	import numpy as np
-	import seaborn as sns
-	import matplotlib.pyplot as plt
-	import plotly.express as px
-	from sklearn.metrics import r2_score, mean_squared_error
-	from sklearn.linear_model import LinearRegression
-	from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor
-	from sklearn.model_selection import train_test_split
+	from pyngrok import ngrok
 	import joblib
+	import streamlit as st
+	import pathlib
+	import pandas as pd
 
 
-## Pastas e Arquivos Utilizados no Projeto:
-	dataset (Pasta com todos arquivos Excel com indicadores de cada ano e mês entre 2018-2020,
-	Lembrando que essa pasta deve estar em seu Google Drive).
-	Os arquivos que o Projeto criar ("dados.csv", "primeiros_registros", "modelo.joblib") devem ser inseridos no driver
+## Used folders and files:
+	dataset (Folder with all Excel files with indicators for each year and month between 2018-2020,
+	https://drive.google.com/drive/folders/1yJDXnx8fIXgi6GZQLtZHkF6Cjozy56R9?usp=share_link
+	Lembrando que essa pasta dataset deve estar em seu Google Drive.
+	The files created by the project ("dados.csv", "modelo.joblib") must be inserted in the Driver
 	
-
+	
 ### Att, Gabriel Souza
