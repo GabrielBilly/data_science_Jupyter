@@ -1,7 +1,7 @@
 # Projeto Airbnb Rio - Ciência de Dados
 
 
-## Aviso e Recomendados:
+## Warning and Recommended:
 	Utilizei o Google Colab para este projeto pois se trata de vários arquivos complexos e pesados,
 	Os Arquivos devem estar baixados em seu Drive, e estarão disponíveis aqui: https://drive.google.com/drive/folders/1yJDXnx8fIXgi6GZQLtZHkF6Cjozy56R9?usp=share_link
 	Aqui no GitHub deixei o arquivo ProjetoAirbnb.ipynb que é o código fonte com o treinamento dos modelos para previsão de preço,
