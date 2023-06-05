@@ -28,7 +28,7 @@
 
 ## Inspirations and Credits:
 	The databases were removed from the site: [kaggle](https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro)
-	Curso Python Impressionador - Prof Jõao Paulo Lira
+	Training course: Python Impressionador - Teacher Jõao Paulo Lira
 	https://www.hashtagtreinamentos.com/
 
 
